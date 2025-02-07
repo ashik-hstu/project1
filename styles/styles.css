@@ -1,0 +1,149 @@
+:root{
+  --fs-lg:20px;
+  --fs-xl:24px;
+  --fs-xxl:28px;
+  --fs-xxxl:32px;
+  --fs-xxxxl:48px;
+  --fw-semi-bold:600;
+  --fw-bold:700;
+  --fw-extra-bold:800;
+  --text-color-primary:#0D1321;
+  --color-secondary:#194ABC;
+  --color-neutral:#FFFFFF;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color:var(--text-color-primary);
+    /* background-color: aqua; */
+    background-color: var(--color-neutral);
+   
+}
+/* common-section */
+button{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semi-bold);
+    padding:12px 20px  ;
+    border: 2px solid #0D1321CC;
+    border-radius:8px ;
+    background-color:var(--color-neutral) ;
+
+
+}
+
+/* header-section */
+nav{
+    width: 80vw;
+    margin: 15px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+nav p{
+    font-size: var(--fs-xxl);
+    font-weight: var(--fw-extra-bold);
+}
+.banner{
+    background-image: url('./assets/Hero-bg.png');
+}
+.banner-container{
+    width: 70vw;
+    margin: 30px auto 70px; 
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+   
+}
+h1{
+    font-size: var(--fs-xxxxl);
+    font-weight: var(--fw-extra-bold);
+}
+.banner-container p{
+    padding: 0px 105px;
+    margin-top: 0px;
+}
+.btn button{
+    color: #FFFFFF;
+    background-color: var(--text-color-primary);
+}
+
+/* main-section */
+main{
+    width: 80vw;
+    margin: 10px auto 20px;
+    text-align: center;
+}
+.query-section{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+    padding: 80px 95px;
+
+}
+
+.query{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    gap:90px;
+    
+    margin: 48px 0px 0px 0px;
+    border-radius: 16px;
+
+    background: linear-gradient(90deg, #FFFFFF, #FFFFFF00 100%);
+
+}
+.info{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+h2{
+    font-size: var(--fs-xxxl);
+    font-weight: var(--fw-extra-bold);
+}
+.about p{
+    padding: 5px 50px;
+}
+
+ h3{
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    padding: 0px 30px 0px 0px;
+    margin-top: 0px;
+    color: #0D1321B3;
+
+}
+.info p{
+    margin-top: 0px;
+}
+.info button{
+   
+    border: 2px solid #0D1321B3;
+    font-weight: 600;
+}
+.inspiration-section{
+    margin: 90px 0px 150px 0px;
+}
+.intro p{
+    padding: 5px 80px;
+}
+.video{
+    padding: 15px 0px ;
+    border:1px solid red;
+    border-radius: 8px;
+    width: 45vw;
+    margin: 10px auto;
+}
