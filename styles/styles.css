@@ -138,12 +138,107 @@ h2{
     margin: 90px 0px 150px 0px;
 }
 .intro p{
-    padding: 5px 80px;
+    padding: 5px 100px;
+    margin-bottom: 20px;
+    
 }
 .video{
-    padding: 15px 0px ;
-    border:1px solid red;
+    padding: 15px ;
+    border:1px solid #0D132133;
     border-radius: 8px;
-    width: 45vw;
-    margin: 10px auto;
+    margin: 10px 70px;
+}
+.target-section{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-bottom: 70px;
+}
+.current-skills{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 21vw;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.skill-info{
+    display: flex;
+    flex-direction: column;
+    text-align: start;  
+}
+.skill-info h3{
+    color: var(--text-color-primary);
+    font-weight: var(--fw-extra-bold);
+    margin-bottom: 0px;
+}
+a{
+    color:#0D1321;
+}
+.skill{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    border: 1px solid #0D132126;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.support-section{
+    background: linear-gradient(#00000066,#00000066 ), url('assets/handshake.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+    padding: 60px 60px;
+    border-radius: 16px;
+    color: var(--color-neutral);
+}
+#text{
+    padding: 13px 20px;
+    color: #0D132199;
+    border: 2px solid #0D132126;
+    border-radius: 5px;
+        width: 30vw;  
+}
+#submit{
+    padding: 0px 20px;
+    border-radius: 8px;
+    background-color: var(--color-neutral);
+    border: 1px solid var(--text-color-primary);
+}
+/* footer-section */
+footer{
+    background-color:#0D132108 ;
+    margin-top: 120px;
+
+}
+.footer-contianer{
+    
+    width: 80vw;
+    margin: 0px auto;
+    padding: 30px 5px;
+    font-size: var(--fs-lg);
+    font-weight:var(--fw-semi-bold) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-image{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
